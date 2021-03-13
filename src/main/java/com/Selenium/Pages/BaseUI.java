@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -36,27 +35,45 @@ public class BaseUI {
 	public ExtentTest logger;
 
 	
+	
 	/****************** SELECT BROWSER ************/
-	public String selectBrowser() {
+	public String selectBrowser(String bchoice) {
 		try {
-			System.out.println("1. Chrome\n2. FireFox\n3. Opera\n4. InternetExplorer\nEnter choice:");
-			try (Scanner s = new Scanner(System.in)) {
-				int n = s.nextInt();
-				switch (n) {
-				case 1:
-					reportPass("Browser Chrome Selected");
-					return "chrome";
-				case 2:
-					reportPass("Browser FireFox Seleced");
-					return "firefox";
-				case 3:
-					reportPass("Browser Opera Selected");
-					return "opera";
-				case 4:
-					reportPass("Browser IE Selected");
-					return "IE";
+			
+			if (property == null) {
+
+				property = new Properties();
+				try {
+					FileInputStream file = new FileInputStream(System.getProperty("user.dir")
+							+ "\\srcTestResources\\ObjectRepository\\projectConfig.properties");
+					property.load(file);
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
 			}
+			
+			System.out.println("1. Chrome\n2. FireFox\n3. Opera\n4. InternetExplorer(IE)\n\nTaking your choice...............\n");
+			String choice = property.getProperty("Browser");
+				System.out.print(choice+"\n");
+				switch (choice) {
+				case "Chrome":
+					System.out.println("Browser Chrome Selected");
+					reportPass("Browser Chrome Selected");
+					return "chrome";
+				case "FireFox":
+					System.out.println("Browser FireFox Seleced");
+					reportPass("Browser FireFox Seleced");
+					return "firefox";
+				case "Opera":
+					System.out.println("Browser Opera Selected");
+					reportPass("Browser Opera Selected");
+					return "opera";
+				case "IE":
+					System.out.println("Browser Chrome Selected");
+					reportPass("Browser InternetExplorer(IE) Selected");
+					return "IE";
+				}
+			
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -82,25 +99,13 @@ public class BaseUI {
 				driver = new OperaDriver();
 			} else if (browserName.equalsIgnoreCase("IE")) {
 				System.setProperty("webdriver.ie.driver",
-						System.getProperty("user.dir") + "\\srcTestResources\\drivers\\operadriver.exe");
+						System.getProperty("user.dir") + "\\srcTestResources\\drivers\\IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 			}
 
 			driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().pageLoadTimeout(180, TimeUnit.SECONDS);
-
-			if (property == null) {
-
-				property = new Properties();
-				try {
-					FileInputStream file = new FileInputStream(System.getProperty("user.dir")
-							+ "\\srcTestResources\\ObjectRepository\\projectConfig.properties");
-					property.load(file);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}

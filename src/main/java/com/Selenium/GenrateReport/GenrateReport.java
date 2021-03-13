@@ -17,7 +17,12 @@ public class GenrateReport extends BaseUI{
 			ExtentHtmlReporter htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\src\\main\\java\\com\\Selenium\\GenrateReport\\HtmlReport.html");
 		    reports = new ExtentReports();
 		    reports.attachReporter(htmlReporter);
+		    reports.setSystemInfo(" OS "," Windows 10 ");
+		    reports.setSystemInfo(" Project Type "," Maven project ");
+		    reports.setSystemInfo(" Tool Used "," Selenium, TestNG ");
+		    reports.setSystemInfo(" language "," Java ");
 		    htmlReporter.config().setDocumentTitle("Urbanladder Find BookShelves Automation");
+		   
 		}
 		return reports;
 	}

@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 12, 2021 11:54:29 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Mar 13, 2021 05:49:53 PM</span>
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -123,10 +122,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='80%'><span class='strong'>4</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='20%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -138,10 +137,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='55.102%'><span class='strong'>27</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='56%'><span class='strong'>28</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='2.041%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='42.857%'>21</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='44%'>22</span> others
 				</div>
 			</div>
 		</div>
@@ -156,17 +155,17 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Browser Setup</span>
-						<span class='test-time'>Mar 12, 2021 11:54:30 AM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Mar 13, 2021 05:49:53 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 12, 2021 11:54:30 AM</span>
-	<span class='label end-time'>Mar 12, 2021 11:54:55 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+800ms</span>
+	<span class='label start-time'>Mar 13, 2021 05:49:53 PM</span>
+	<span class='label end-time'>Mar 13, 2021 05:49:59 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 6s+119ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -180,36 +179,22 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:33 AM</td>
+					<td class='timestamp'>5:49:53 PM</td>
 					<td class='step-details'>Browser Chrome Selected</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:37 AM</td>
+					<td class='timestamp'>5:49:56 PM</td>
 					<td class='step-details'>Brwoser Invoked</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:40 AM</td>
+					<td class='timestamp'>5:49:59 PM</td>
 					<td class='step-details'>Redirected on https://www.urbanladder.com/</td>
-				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>11:54:55 AM</td>
-					<td class='step-details'>element click intercepted: Element <input type="checkbox" name="filters[storage_type][]" id="filters_storage_type_Open" value="Open"> is not clickable at point (382, 196). Other element would receive the click: <input type="checkbox" name="filters[storage_type][]" id="filters_storage_type_Open_And_Closed" value="Open And Closed" disabled="">
-  (Session info: chrome=89.0.4389.82)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-BNIMVUJ', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_54_56_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_54_56_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_54_56_IST_2021.png'></li>
-							</ul>
 					</div>
 				</li>
 				
@@ -217,14 +202,14 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>Find BookShelves</span>
-						<span class='test-time'>Mar 12, 2021 11:54:40 AM</span>
+						<span class='test-time'>Mar 13, 2021 05:49:59 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 12, 2021 11:54:40 AM</span>
-	<span class='label end-time'>Mar 12, 2021 11:54:54 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+706ms</span>
+	<span class='label start-time'>Mar 13, 2021 05:49:59 PM</span>
+	<span class='label end-time'>Mar 13, 2021 05:50:16 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+647ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -238,67 +223,80 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:54:51 AM</td>
+					<td class='timestamp'>5:50:09 PM</td>
 					<td class='step-details'>popUp_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:51 AM</td>
+					<td class='timestamp'>5:50:10 PM</td>
 					<td class='step-details'>popUp_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:54:52 AM</td>
+					<td class='timestamp'>5:50:10 PM</td>
 					<td class='step-details'>searchShelvesTextbox_Id</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:52 AM</td>
+					<td class='timestamp'>5:50:11 PM</td>
 					<td class='step-details'>searchShelvesTextbox_Id-Bookshelves below Rs. 15000 Entered Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:54:52 AM</td>
+					<td class='timestamp'>5:50:11 PM</td>
 					<td class='step-details'>searchButton_Id</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:53 AM</td>
+					<td class='timestamp'>5:50:12 PM</td>
 					<td class='step-details'>searchButton_Id Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:54:53 AM</td>
+					<td class='timestamp'>5:50:12 PM</td>
 					<td class='step-details'>category_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:54 AM</td>
+					<td class='timestamp'>5:50:13 PM</td>
 					<td class='step-details'>category_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:54:54 AM</td>
+					<td class='timestamp'>5:50:13 PM</td>
 					<td class='step-details'>booShelves_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:54 AM</td>
+					<td class='timestamp'>5:50:13 PM</td>
 					<td class='step-details'>booShelves_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:54:54 AM</td>
+					<td class='timestamp'>5:50:13 PM</td>
 					<td class='step-details'>storageType_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:54 AM</td>
+					<td class='timestamp'>5:50:13 PM</td>
 					<td class='step-details'>storageType_Xpath Clicked Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:50:16 PM</td>
+					<td class='step-details'>stockCheckbox_Xpath</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:50:16 PM</td>
+					<td class='step-details'>stockCheckbox_Xpath Clicked Successfully</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_22_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_22_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_22_IST_2021.png'></li>
+							</ul>
 					</div>
 				</li>
 				
@@ -306,14 +304,14 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>Retrive SubmenuList of Collections</span>
-						<span class='test-time'>Mar 12, 2021 11:54:56 AM</span>
+						<span class='test-time'>Mar 13, 2021 05:50:22 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 12, 2021 11:54:56 AM</span>
-	<span class='label end-time'>Mar 12, 2021 11:55:02 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+596ms</span>
+	<span class='label start-time'>Mar 13, 2021 05:50:22 PM</span>
+	<span class='label end-time'>Mar 13, 2021 05:50:30 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+315ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -327,24 +325,24 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:54:57 AM</td>
+					<td class='timestamp'>5:50:23 PM</td>
 					<td class='step-details'>collectionElements_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:54:57 AM</td>
+					<td class='timestamp'>5:50:24 PM</td>
 					<td class='step-details'>collectionElements_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:02 AM</td>
+					<td class='timestamp'>5:50:30 PM</td>
 					<td class='step-details'>All Sub_menues Retrived Sccessfully</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_02_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_02_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_02_IST_2021.png'></li>
+								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_30_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_30_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_30_IST_2021.png'></li>
 							</ul>
 					</div>
 				</li>
@@ -353,14 +351,14 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
 						<span class='test-name'>GiftCard ErrorMEssage Verfication</span>
-						<span class='test-time'>Mar 12, 2021 11:55:02 AM</span>
+						<span class='test-time'>Mar 13, 2021 05:50:30 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 12, 2021 11:55:02 AM</span>
-	<span class='label end-time'>Mar 12, 2021 11:55:24 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 22s+298ms</span>
+	<span class='label start-time'>Mar 13, 2021 05:50:30 PM</span>
+	<span class='label end-time'>Mar 13, 2021 05:50:41 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+197ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -374,129 +372,129 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:09 AM</td>
+					<td class='timestamp'>5:50:36 PM</td>
 					<td class='step-details'>giftCard_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:39 PM</td>
 					<td class='step-details'>giftCard_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:39 PM</td>
 					<td class='step-details'>occasion_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:39 PM</td>
 					<td class='step-details'>occasion_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:39 PM</td>
 					<td class='step-details'>amount_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:39 PM</td>
 					<td class='step-details'>amount_Xpath-100000 Entered Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:39 PM</td>
 					<td class='step-details'>cardNextButton_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>cardNextButton_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>senderName_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>senderName_Xpath-Manisha Entered Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>sendersMail_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:23 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>sendersMail_Xpath-mj@gmail.com Entered Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>recipientsPhoneNo_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>recipientsPhoneNo_Xpath-9876543210 Entered Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:40 PM</td>
 					<td class='step-details'>recipientsName_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>recipientsName_Xpath-Roshni Entered Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>recipientsMail_Id</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>recipientsMail_Id-Roshgmail.com Entered Successfully</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>Successfully Retrived Data From ExcelSheet</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>Successfully Entered Into Textfields</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>confirmButton_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>confirmButton_Xpath Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>recipientsMail_Id</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:24 AM</td>
+					<td class='timestamp'>5:50:41 PM</td>
 					<td class='step-details'>Error Message: Please include an '@' in the email address. 'Roshgmail.com' is missing an '@'. is displayed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_25_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_25_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_25_IST_2021.png'></li>
+								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_42_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_42_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_42_IST_2021.png'></li>
 							</ul>
 					</div>
 				</li>
@@ -505,14 +503,14 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
 					<div class='test-heading'>
 						<span class='test-name'>Highest Recommendation Study Chair Display Verification</span>
-						<span class='test-time'>Mar 12, 2021 11:55:25 AM</span>
+						<span class='test-time'>Mar 13, 2021 05:50:42 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 12, 2021 11:55:25 AM</span>
-	<span class='label end-time'>Mar 12, 2021 11:55:34 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+542ms</span>
+	<span class='label start-time'>Mar 13, 2021 05:50:42 PM</span>
+	<span class='label end-time'>Mar 13, 2021 05:50:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+713ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -526,39 +524,39 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:31 AM</td>
+					<td class='timestamp'>5:50:43 PM</td>
 					<td class='step-details'>searchShelvesTextbox_Id</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:31 AM</td>
+					<td class='timestamp'>5:50:43 PM</td>
 					<td class='step-details'>searchShelvesTextbox_Id-Study Chair Entered Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:31 AM</td>
+					<td class='timestamp'>5:50:43 PM</td>
 					<td class='step-details'>searchButton_Id</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:34 AM</td>
+					<td class='timestamp'>5:50:45 PM</td>
 					<td class='step-details'>searchButton_Id Clicked Successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:55:34 AM</td>
+					<td class='timestamp'>5:50:45 PM</td>
 					<td class='step-details'>recommendation_Xpath</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:55:34 AM</td>
+					<td class='timestamp'>5:50:46 PM</td>
 					<td class='step-details'>recommendation_Xpath Clicked Successfully</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_41_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_41_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Fri_Mar_12_11_55_41_IST_2021.png'></li>
+								<li><img data-featherlight='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_53_IST_2021.png' width='10%' src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_53_IST_2021.png' data-src='D:\eclipse-work\DisplayBookshelves\ScreenShots\Sat_Mar_13_17_50_53_IST_2021.png'></li>
 							</ul>
 					</div>
 				</li>
@@ -603,25 +601,53 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>49</div>
+					<div class='panel-lead'>50</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 12, 2021 11:54:29 AM</div>
+					<div class='panel-lead'>Mar 13, 2021 05:49:53 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 12, 2021 11:55:41 AM</div>
+			 		<div class='panel-lead'>Mar 13, 2021 05:50:53 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 11s+413ms</div>
+					<div class='panel-lead'>0h 1m 0s+364ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td> OS </td>
+								<td> Windows 10 </td>
+							</tr>
+							<tr>
+								<td> Project Type </td>
+								<td> Maven project </td>
+							</tr>
+							<tr>
+								<td> Tool Used </td>
+								<td> Selenium, TestNG </td>
+							</tr>
+							<tr>
+								<td> language </td>
+								<td> Java </td>
+							</tr>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -634,22 +660,22 @@ Session ID: f9b8d95c546f7e62bf8070fb83b452a1</td>
 
 		<script>
 			var statusGroup = {
-				passParent: 4,
-				failParent: 1,
+				passParent: 5,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				
-				passChild: 27,
-				failChild: 1,
+				passChild: 28,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 21,
-				exceptionsChild: 1,
+				infoChild: 22,
+				exceptionsChild: 0,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

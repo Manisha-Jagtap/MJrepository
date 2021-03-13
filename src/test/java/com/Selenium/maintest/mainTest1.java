@@ -19,7 +19,7 @@ public class mainTest1 extends BaseUI{
 
 		
 		logger = report.createTest("Browser Setup");
-		String Browser = selectBrowser();
+		String Browser = selectBrowser("Browsers");
 		driver = invokeBrowser(Browser);
 		openURL("websiteURL");
 		

@@ -36,11 +36,13 @@ public class BookShelves extends BaseUI{
 				
 		clickElement("searchButton_Id");
 		
+		
 		clickElement("category_Xpath");
 		clickElement("booShelves_Xpath");
 		
 		clickElement("storageType_Xpath");
 		//clickElement("typeOpen_Xpath");
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='filters_storage_type_Open']")).click();
 		//driver.findElement(By.xpath("//input[@id='filters_availability_In_Stock_Only']")).click();  
 		clickElement("stockCheckbox_Xpath");
