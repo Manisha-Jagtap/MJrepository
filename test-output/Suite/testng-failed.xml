@@ -5,6 +5,7 @@
     <classes>
       <class name="com.Selenium.maintest.mainTest1">
         <methods>
+          <include name="highlyRecommendedStudyChair"/>
           <include name="closeBrowser"/>
           <include name="endReport"/>
           <include name="bookself"/>

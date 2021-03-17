@@ -10,7 +10,7 @@ public class GenrateReport extends BaseUI{
 	
 	public  static ExtentReports  reports;
 	
-	/****************THIS IS FOR EXTENT REPORT****************/
+	/****************THIS IS FOR HTML REPORT****************/
 	public static  ExtentReports getExtentReport()
 	{		
 		if(reports == null) {

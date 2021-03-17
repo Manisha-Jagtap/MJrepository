@@ -6,56 +6,50 @@
 The price of the first three study chair]]>
     </line>
     <line>
-      <![CDATA[Mika Study Chair :]]>
-    </line>
-    <line>
-      <![CDATA[Rs.10879]]>
-    </line>
-    <line>
       <![CDATA[Dorsey Study Chair :]]>
     </line>
     <line>
       <![CDATA[Rs.4124]]>
     </line>
     <line>
-      <![CDATA[Hawley Study Chair :]]>
+      <![CDATA[Mika Study Chair :]]>
     </line>
     <line>
-      <![CDATA[Rs.5949]]>
+      <![CDATA[Rs.10879]]>
+    </line>
+    <line>
+      <![CDATA[Galen Study Chair :]]>
+    </line>
+    <line>
+      <![CDATA[Rs.7699]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-13T17:49:59 IST" name="Suite" finished-at="2021-03-13T17:50:54 IST" duration-ms="54533">
+  <suite started-at="2021-03-17T02:16:59 IST" name="Suite" finished-at="2021-03-17T02:18:20 IST" duration-ms="80714">
     <groups>
     </groups>
-    <test started-at="2021-03-13T17:49:59 IST" name="Test" finished-at="2021-03-13T17:50:54 IST" duration-ms="54533">
+    <test started-at="2021-03-17T02:16:59 IST" name="Test" finished-at="2021-03-17T02:18:20 IST" duration-ms="80714">
       <class name="com.Selenium.maintest.mainTest1">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-13T17:49:53 IST" name="setupBrowser" finished-at="2021-03-13T17:49:59 IST" duration-ms="6133" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-17T02:16:51 IST" name="setupBrowser" finished-at="2021-03-17T02:16:59 IST" duration-ms="8636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="bookself()[pri:1, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-13T17:49:59 IST" name="bookself" finished-at="2021-03-13T17:50:22 IST" duration-ms="22930" status="PASS">
+        <test-method signature="bookself()[pri:1, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-17T02:17:00 IST" name="bookself" finished-at="2021-03-17T02:17:37 IST" duration-ms="37085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookself -->
-        <test-method signature="Collection()[pri:2, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-13T17:50:22 IST" name="Collection" finished-at="2021-03-13T17:50:30 IST" duration-ms="7915" status="PASS">
+        <test-method signature="Collection()[pri:2, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-17T02:17:37 IST" name="Collection" finished-at="2021-03-17T02:17:44 IST" duration-ms="7563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Collection -->
-        <test-method signature="giftCard()[pri:3, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-13T17:50:30 IST" name="giftCard" finished-at="2021-03-13T17:50:42 IST" duration-ms="11708" status="PASS">
+        <test-method signature="giftCard()[pri:3, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-17T02:17:44 IST" name="giftCard" finished-at="2021-03-17T02:18:05 IST" duration-ms="21042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- giftCard -->
-        <test-method signature="highlyRecommendedStudyChair()[pri:4, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-13T17:50:42 IST" name="highlyRecommendedStudyChair" finished-at="2021-03-13T17:50:53 IST" duration-ms="11413" status="PASS">
+        <test-method signature="highlyRecommendedStudyChair()[pri:4, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-17T02:18:05 IST" name="highlyRecommendedStudyChair" finished-at="2021-03-17T02:18:20 IST" duration-ms="14627" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[
 The price of the first three study chair]]>
-            </line>
-            <line>
-              <![CDATA[Mika Study Chair :]]>
-            </line>
-            <line>
-              <![CDATA[Rs.10879]]>
             </line>
             <line>
               <![CDATA[Dorsey Study Chair :]]>
@@ -64,18 +58,24 @@ The price of the first three study chair]]>
               <![CDATA[Rs.4124]]>
             </line>
             <line>
-              <![CDATA[Hawley Study Chair :]]>
+              <![CDATA[Mika Study Chair :]]>
             </line>
             <line>
-              <![CDATA[Rs.5949]]>
+              <![CDATA[Rs.10879]]>
+            </line>
+            <line>
+              <![CDATA[Galen Study Chair :]]>
+            </line>
+            <line>
+              <![CDATA[Rs.7699]]>
             </line>
           </reporter-output>
         </test-method> <!-- highlyRecommendedStudyChair -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-13T17:50:53 IST" name="endReport" finished-at="2021-03-13T17:50:54 IST" duration-ms="514" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-17T02:18:20 IST" name="endReport" finished-at="2021-03-17T02:18:20 IST" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-13T17:50:54 IST" name="closeBrowser" finished-at="2021-03-13T17:50:54 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Selenium.maintest.mainTest1@7dc0f706]" started-at="2021-03-17T02:18:20 IST" name="closeBrowser" finished-at="2021-03-17T02:18:20 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
